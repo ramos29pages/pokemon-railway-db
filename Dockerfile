@@ -1,4 +1,4 @@
-FROM postgres:14
+FROM postgres:latest
 
 ENV POSTGRES_DB=pokemon_db
 ENV POSTGRES_USER=pokemon_user
